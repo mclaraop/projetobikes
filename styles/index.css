@@ -13,6 +13,8 @@ header, main, footer{
     width: 100%;
 }
 
+/* header */
+
 nav{
     background-color: var(--primaria);
     display: flex;
@@ -41,6 +43,8 @@ nav{
     width: 100%; /*seguir o pai LOGO*/
 }
 
+/* menu */
+
 #menu{
     width: 100%;
     padding: 10px;
@@ -54,42 +58,119 @@ nav{
     color: white;
 }
 
-#titulos{
-    width: auto;
-    height: 300px;
-    background-color: white;
+/* topicos */
+#topicos, #eventos{
+    width: 100%;
+    padding: 10px 0px;
     display: flex;
+    justify-content: space-between;
 }
 
-#titulos div{
+.topico, .evento{
+    width: 30%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
-#titulos img{
-    margin-top: 40px;
-    width: 70px;
-    height: 70px;
+.topicoImg{
+    width: 100px;
+}
+
+.topicoImg img{
+    width: 100%;
     border-radius: 100%;
+
 }
 
-#titulos p{
-    margin: 10px;
+button{
+    padding: 5px 10px;
 }
 
+/* agenda */
 #agenda{
-    width: auto;
-    height: 400px;
-    background-color: rgb(216, 216, 216);
-    display: flex;
+    background-color: rgb(233, 233, 233);
+    height: 300px;
 }
 
-#agenda div{
-    margin-top: 100px;
+.dataEvento{
+    width: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.evento{
+    flex-direction: row;
+    align-items: start;
+}
+
+/* galeria */
+#galeria{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#galeriaImagens{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeriaImagens{
+    width: 20%;
+    height: 200px;
+    background-image: url(../images/ImagensGeral/galeriaimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#galeriaImg1{
+    background-image: url(/images/ImagensGeral/07774ecf7f0e39243d9abb3c5e4bcc03.jpg);
+}
+
+#galeriaImg2{
+    background-image: url(/images/ImagensGeral/09fe2f02b18c258ac4003209df4989e7.jpg);
+}
+
+#galeriaImg3{
+    background-image: url(/images/ImagensGeral/275-bike.jpg);
+}
+
+#galeriaImg4{
+    background-image: url(/images/ImagensGeral/40dc178368b4b17b22d471bb917c483e.jpg);
+}
+
+#galeriaImg5{
+    background-image: url(/images/ImagensGeral/39c962e8cef92f4637835dd987c0755b.jpg);
+}
+
+#galeriaImg6{
+    background-image: url(/images/ImagensGeral/4566499885_96f5db7ab4_o.jpg);
+}
+
+#galeriaImg7{
+    background-image: url(/images/ImagensGeral/b69027b477e3641ebcbe13ada9ca7a34.jpg);
+}
+
+#galeriaImg8{
+    background-image: url(/images/ImagensGeral/c4fe9d5ff5faa035af332874882a3932.jpg);
+}
+
+#galeriaImg9{
+    background-image: url(/images/ImagensGeral/cdcc96c7a92f0ea4989350ec66483916.jpg);
+}
+
+#galeriaImg10{
+    background-image: url(/images/ImagensGeral/fcf611df3b11b66970d78799a7db5cff.jpg);
 }
 
 footer{
